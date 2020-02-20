@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.493 s <<< FAILURE! - in TestSuite
+feature(CTMTechTest.TestRunner)  Time elapsed: 39.633 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to match the regex "tariffsForMe". Current url: "https://energy.comparethemarket.com/energy/v2/yourDetails" (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMA-LPWIN10', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.106, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Roma\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56467}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4b2b265187cb502ce67f7cb5e16bb57
+	at CTMTechTest.TestRunner.feature(TestRunner.java:37)
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to match the regex "tariffsForMe". Current url: "https://energy.comparethemarket.com/energy/v2/yourDetails" (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMA-LPWIN10', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.106, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Roma\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56467}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4b2b265187cb502ce67f7cb5e16bb57
+

@@ -1,0 +1,8 @@
+CTMTechTest\BrowserSetup.class
+CTMTechTest\Pages\PriceResultPage.class
+CTMTechTest\Pages\CurrentSupplierPage.class
+CTMTechTest\Pages\YourEnergyPage.class
+CTMTechTest\LoadProp.class
+CTMTechTest\Utils.class
+CTMTechTest\BasePage.class
+CTMTechTest\Pages\YourDetailsPage.class
