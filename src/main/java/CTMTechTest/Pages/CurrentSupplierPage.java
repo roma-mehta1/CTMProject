@@ -48,7 +48,7 @@ public class CurrentSupplierPage extends Utils {
     }
     public void invalidPostcodeErrorMessage(){
         String ExpectedInvalidPostcodeErrorMessage = loadProp.getProperty("ExpectedInvalidPostcodeErrorMessage");
-        waitForElementToBeVisible(_invalidPostcodeError,2);
+        waitForElementToBeVisible(_invalidPostcodeError,5);
       String ActualInvalidPostcodeErrorMessage =  getText(_invalidPostcodeError);
         System.out.println(ActualInvalidPostcodeErrorMessage);
         Assert.assertEquals(ActualInvalidPostcodeErrorMessage,ExpectedInvalidPostcodeErrorMessage);

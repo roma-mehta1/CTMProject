@@ -29,7 +29,7 @@ public class YourDetailsPage extends Utils {
         clickOnElement(_termsButton);
     }
     public void goToPrices(){
-        waitForElementToBeClickable(_goToPricesButton,2);
+        waitForElementToBeClickable(_goToPricesButton,3);
         clickOnElement(_goToPricesButton);
     }
 
